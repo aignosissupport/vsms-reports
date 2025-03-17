@@ -17,7 +17,7 @@ import ISAA4 from "./components/report pages/isaa4";
 import MCHAT from "./components/report pages/mchat";
 import MCHAT2 from "./components/report pages/mchat2";
 import MCHAT3 from "./components/report pages/mchat3";
-import CARS from "./components/report pages/cars";
+import VSMS from "./components/report pages/vsms";
 import CARS2 from "./components/report pages/cars2";
 import CARS3 from "./components/report pages/cars3";
 // import ReactDOM from "react-dom";
@@ -68,7 +68,7 @@ const App = () => {
         <Route path='/mchat' element={<MCHAT />} />
         <Route path='/mchat2' element={<MCHAT2 />} />
         <Route path='/mchat3' element={<MCHAT3 />} />
-        <Route path='/cars' element={<CARS />} />
+        <Route path='/cars' element={<VSMS />} />
         <Route path='/cars2' element={<CARS2 />} />
         <Route path='/cars3' element={<CARS3 />} />
         

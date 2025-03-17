@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Chart from 'chart.js/auto';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 
-const CARS = () => {
+const VSMS = () => {
   
 
   const getURLParameter = (name) => {
@@ -138,14 +138,14 @@ const CARS = () => {
             lineHeight: "15px",
             textAlign:"justify"}}>
               On VSMS the social quotient was calculated to be {SQ} which indicates no impairment in socio adaptive functioning. 
-            {/* <p>The  CARS (Childhood Autism Rating Scale) test output provides an assessment of the child's behavior patterns based on their responses to key screening questions across various developmental domains.</p> <p> <br /> <strong>Lower CARS Score:</strong> A lower score indicates that the child’s behaviors align closely with typical developmental milestones, suggesting a minimal likelihood of autism spectrum disorder (ASD). In this case, the child exhibits expected social interaction, communication, and behavioral patterns, indicating that the child’s development is progressing typically. </p> <br /><p> <strong>Higher CARS Score:</strong> A higher score suggests that the child’s responses indicate a greater degree of atypical behaviors or developmental delays, which may be associated with autism spectrum disorder. This means that the child may experience challenges in areas such as social communication, emotional response, imitation, and flexibility. A higher score doesn’t confirm a diagnosis of autism but serves as an early indicator that further evaluation by a specialist may be necessary. </p> <br /> <p> The CARS screening tool is designed to help identify children who may require additional assessment and intervention at an early stage. Early detection and timely intervention can play a crucial role in supporting a child’s developmental needs and improving long-term outcomes. </p> */}
+            {/* <p>The  VSMS (Childhood Autism Rating Scale) test output provides an assessment of the child's behavior patterns based on their responses to key screening questions across various developmental domains.</p> <p> <br /> <strong>Lower VSMS Score:</strong> A lower score indicates that the child’s behaviors align closely with typical developmental milestones, suggesting a minimal likelihood of autism spectrum disorder (ASD). In this case, the child exhibits expected social interaction, communication, and behavioral patterns, indicating that the child’s development is progressing typically. </p> <br /><p> <strong>Higher VSMS Score:</strong> A higher score suggests that the child’s responses indicate a greater degree of atypical behaviors or developmental delays, which may be associated with autism spectrum disorder. This means that the child may experience challenges in areas such as social communication, emotional response, imitation, and flexibility. A higher score doesn’t confirm a diagnosis of autism but serves as an early indicator that further evaluation by a specialist may be necessary. </p> <br /> <p> The VSMS screening tool is designed to help identify children who may require additional assessment and intervention at an early stage. Early detection and timely intervention can play a crucial role in supporting a child’s developmental needs and improving long-term outcomes. </p> */}
         </div>
         {/* <h2 style={{textAlign:"left"}}>ISAA Score: <span id="isaascore">{SQ} </span></h2>
         <p style={{textAlign:"left"}}>Interpretation: <span id="SAmessage">{SA}</span></p> */}
 
         <br /><br /><br /><br />
          <div className="w-full flex justify-between items-center text-xs font-manrope mt-6 border-t-2 border-[#800080] pt-2">
-                    <span className='text-[10px]'>CARS Report - {name}</span>
+                    <span className='text-[10px]'>VSMS Report - {name}</span>
                     <div className="text-center text-[10px]">
                         <span></span>
                         <br />
@@ -160,4 +160,4 @@ const CARS = () => {
   );
 };
 
-export default CARS;
+export default VSMS;
